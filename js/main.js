@@ -78,12 +78,14 @@
     });
   });
 
-  // Mobile nav toggle (simple show/hide of link list as a dropdown)
+  // Mobile nav toggle (shows links + Sign In/Start Demo together as one dropdown)
   const navToggle = document.querySelector('.nav-toggle');
-  const navLinks = document.querySelector('.nav-links');
+  const navMenu = document.querySelector('.nav-menu');
   navToggle.addEventListener('click', ()=>{
-    const open = navLinks.style.display === 'flex';
-    navLinks.style.cssText = open ? '' : 'display:flex; position:absolute; top:64px; left:20px; right:20px; background:#fff; flex-direction:column; gap:16px; padding:20px; border-radius:16px; box-shadow:0 12px 30px rgba(0,0,0,.12);';
+    navMenu.classList.toggle('open');
+  });
+  navMenu.querySelectorAll('a').forEach(link=>{
+    link.addEventListener('click', ()=> navMenu.classList.remove('open'));
   });
 
   // Testimonial carousel
