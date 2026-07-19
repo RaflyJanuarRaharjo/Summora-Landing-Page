@@ -90,9 +90,9 @@
 
   // Testimonial carousel
   const testimonials = [
-    {quote:'<span class="hl">Summora turned our chaotic follow-ups</span> into a five-minute review. <span class="hl">We finally trust that nothing slips through the cracks.</span>', name:'Amara Devlin', title:'Head of Operations, Fieldnote', photo:'assets/img/avatar-testimonial-default.jpg'},
-    {quote:'<span class="hl">We stopped taking notes altogether.</span> Summora catches the decision <span class="hl">the moment someone says it out loud.</span>', name:'Malik Osei', title:'Engineering Lead, Orbital', photo:'assets/img/avatar-malik-osei.jpg'},
-    {quote:'Onboarding new hires used to mean re-explaining old decisions. <span class="hl">Now they just search Summora.</span>', name:'Priya Nair', title:'Co-founder, Basecamp Co', photo:'assets/img/avatar-priya-nair.jpg'}
+    {quote:'<span class="hl">Summora turned our chaotic follow-ups</span> into a five-minute review. <span class="hl">We finally trust that nothing slips through the cracks.</span>', name:'Amara Devlin', title:'Head of Operations, Fieldnote', photo:'assets/img/avatar-testimonial-default.webp'},
+    {quote:'<span class="hl">We stopped taking notes altogether.</span> Summora catches the decision <span class="hl">the moment someone says it out loud.</span>', name:'Malik Osei', title:'Engineering Lead, Orbital', photo:'assets/img/avatar-malik-osei.webp'},
+    {quote:'Onboarding new hires used to mean re-explaining old decisions. <span class="hl">Now they just search Summora.</span>', name:'Priya Nair', title:'Co-founder, Basecamp Co', photo:'assets/img/avatar-priya-nair.webp'}
   ];
   let testiIndex = 0;
   function shiftTestimonial(dir){
